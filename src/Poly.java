@@ -14,8 +14,8 @@ public class Poly {
 		float del= b*b-4*a*c;
 		
 		if (del>0){
-			System.out.println("solution 1 :"+((-b-del)/(2*a)));
-			System.out.println("solution 2 :"+((-b+del)/(2*a)));
+			System.out.println("solution 1 :"+((-b-sqrt(del))/(2*a)));
+			System.out.println("solution 2 :"+((-b+sqrt(del))/(2*a)));
 		}
 		else{
 			if (del==0){
